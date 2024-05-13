@@ -1,3 +1,9 @@
-h1{
-    color: rgb(194, 194, 115);
+.marco{
+    background-color: red;
+    width: 200px;
+}
+
+.texto{
+    color: white;
+    height: 30px;
 }
