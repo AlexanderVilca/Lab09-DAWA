@@ -1,10 +1,2 @@
-<select [(ngModel)]="selectedCargo">
-    <option *ngFor="let cargo of cargos" [ngValue]="cargo">{{ cargo }}</option>
-  </select>
-  
-  <ul>
-    <li *ngFor="let cargo of cargos" [ngStyle]="{ color: cargo === selectedCargo ? 'red' : 'black' }">
-      {{ cargo }}
-    </li>
-  </ul>
-  
+<input [(ngModel)]="nombre" placeholder="Enter your name">
+<p> Hola, {{ nombre }}</p>

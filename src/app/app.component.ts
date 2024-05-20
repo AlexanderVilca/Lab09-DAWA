@@ -11,7 +11,8 @@ import { FormsModule } from '@angular/forms';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  cargos=['Programador','Analista','Administrador de BD','Diseñador'];
-  selectedCargo: string | undefined; 
-  title = 'app01';
+  title(title: any) {
+    throw new Error('Method not implemented.');
+  }
+  nombre = ''
 }

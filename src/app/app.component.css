@@ -1,9 +1,6 @@
-.marco{
-    background-color: red;
-    width: 200px;
+.rojo{
+    color: red;
 }
-
-.texto{
-    color: white;
-    height: 30px;
+.azul{
+    color: blue;
 }
